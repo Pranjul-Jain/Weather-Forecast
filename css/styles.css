@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+fram {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 21rem;
+    height: 17.5rem;
+    background-color: rgba(0, 0, 0, 0.67);
+    display: flex;
+    border-radius: 6px;
+    color: wheat;
+}
+
+
+root {
+    display: flex;
+    background-image: url("../images/weather2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    background-position-x: center;
+    background-position-y: center;
+    padding: 2rem;
+    /* background-size: contain; */
+}
+
+card-heading input {
+    font-size: 1.1rem;
+    margin-left: 10px;
+    margin-top: 5.5px;
+    border-radius: 10px;
+    height: 35px;
+    /* border:none; */
+    outline-style: none;
+    padding: 2px;
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: wheat;
+    border-width: 7px;
+    border-color: transparent;
+}
+
+card-heading input:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+fram>div {
+    display: flex;
+}
+
+#temperature {
+    margin-top: 5%;
+    font-size: 2rem;
+    color: wheat;
+}
+
+#humidity {
+    margin-top: 20%;
+    font-size: 1.4rem;
+}
+
+#wind {
+    font-size: 1.4rem;
+}
+
+#condition {
+    font-size: 1.4rem;
+}

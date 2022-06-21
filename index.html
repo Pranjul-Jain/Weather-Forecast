@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://code.jscharting.com/2.9.0/jscharting.js" defer></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="./javascript/weather.js" defer></script>
+
+</head>
+<body>
+    <root>
+        <fram>
+            <div>
+                <icon>
+                    <img src="./images/Weather-icon.png" alt="weather-image" width="50px"></img>
+                </icon>
+                <card-heading>
+                    <input type="text">
+                </card-heading>
+                <i class="fal fa-search" style="color:rgb(43, 70, 226);font-size: 30px;margin-top:5px;margin-left:4px;"></i>
+            </div>
+            <div id="temperature">
+                51.2°C
+            </div>
+            <div id="humidity">
+                Humidity : 12
+            </div>
+            <div id="wind">
+                Wind : 3.09m/s
+            </div>
+            <div id="condition">
+                Weather :  Cloudy
+            </div>
+        </fram>
+   </root>  
+      <div id="chartDiv" style="width:60%;height:300px;margin:0 auto;"></div>
+      <div id="chartDiv2" style="width:60%;height:300px; margin:0 auto;"></div>
+      <div id="chartDiv3" style="width:60%;height:300px; margin:0 auto;"></div>
+</body>
+</html>
